@@ -1,42 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Lato&display=swap";
 @import "https://fonts.googleapis.com/css?family=Cantarell:400,700&display=swap";
-/* main styles */
-/* h3 span.highlight {
-  position: absolute;
-  width: 30%;
-  background-color: yellow;
-  height: 1em;
-  right: 4em;
-  z-index: -1;
-} */
-/* every page */
-/* nav */
-/* nav button.nav-bar-toggler {
-  position: relative;
-  top:0;
-  right: 0;
-} */
-/* home-work styles */
-/* designer styles */
-/* contact */
-/* Project styles */
-/* resume */
-/* .middle {
-  position: absolute;
-  top: 40%;
-  left: 15%;
-  text-align: center;
-  width: 70%;
-} */
-/* PROJECTS */
-/* Media Queries */
-/* small devices - 576px and up */
-/* nav */
-/* medium devices - tablets 768 and up */
-/* every page */
-/* contact hover */
-/* skills */
-/* particles */
 body {
   width: 100%; }
 
@@ -61,7 +24,7 @@ h3 {
   position: relative; }
 
 p {
-  font-family: 'Lora', georgia, serif;
+  font-family: 'Lato', helvetica, sans-serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 2em; }
@@ -229,7 +192,7 @@ h5 {
   font-size: 1.3em; }
 
 .stats {
-  font-family: 'Lora', georgia, serif;
+  font-family: 'Lato', helvetica, sans-serif;
   font-weight: 400;
   font-size: 1em;
   margin-bottom: 1em; }
@@ -511,7 +474,8 @@ video {
     color: white;
     font-size: 16px;
     padding: 16px 13px;
-    font-family: 'Cantarell', helvetica, sans-serif; }
+    font-family: 'Cantarell', helvetica, sans-serif;
+    border-radius: 50%; }
 
   .nav-item {
     border-bottom: none; }
