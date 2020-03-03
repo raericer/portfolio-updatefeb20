@@ -227,13 +227,11 @@ tr.space-above {
   height: auto; }
 
 .text {
-  background-color: #59b5b5;
   color: white;
   font-size: 13px;
   padding: 16px 13px;
   font-family: 'Cantarell', helvetica, sans-serif;
-  text-align: center;
-  border-radius: 50%; }
+  text-align: center; }
 
 video {
   width: 100%; }
@@ -262,13 +260,11 @@ video {
     width: 70%; }
 
   .text {
-    background-color: #59b5b5;
     color: white;
     font-size: 16px;
     padding: 16px 13px;
     font-family: 'Cantarell', helvetica, sans-serif;
-    text-align: center;
-    border-radius: 50%; }
+    text-align: center; }
 
   .topbar {
     width: 100%; }
@@ -454,7 +450,7 @@ video {
       opacity: 1; }
 
   .image {
-    opacity: 1;
+    opacity: .9;
     display: block;
     width: 100%;
     height: auto;
@@ -462,22 +458,31 @@ video {
     backface-visibility: hidden; }
 
   .middle {
+    background-color: #59b5b5;
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
+    width: 100%;
+    height: 100%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center; }
 
+  .container-hover:hover .middle {
+    opacity: 0.5; }
+    .container-hover:hover .middle .text {
+      opacity: 1.5 !important; }
+
   .text {
-    background-color: #59b5b5;
+    position: absolute;
+    top: 40%;
     color: white;
     font-size: 16px;
-    padding: 16px 13px;
-    font-family: 'Cantarell', helvetica, sans-serif;
-    border-radius: 50%; }
+    width: 100%;
+    height: 100%;
+    font-family: 'Cantarell', helvetica, sans-serif; }
 
   .nav-item {
     border-bottom: none; }
